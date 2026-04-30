@@ -8,34 +8,32 @@ export default function Publications() {
     <div id='publications' style={{ margin:'20px 10%', padding: '10px 40px',borderRadius:'20px' }}>
       <br />
       <p className='section-title'>Publications</p>
-      {/* <ol reversed className='text-1 list-1' style={{ listStyle: 'number', fontSize: '1rem' }}>
-        <li><b>Vinnarasi R.</b>, Dhanya C.T., Kumar H., 2023. “Tracing Time-Varying Characteristics of Meteorological Drought through Nonstationary Joint Deficit Index”, Journal of Climate, 36 (2023), 4031–4052.</li> <br />
-        <li><b>Vinnarasi R.</b>, Dhanya C.T., 2022. “Time-varying Intensity-Duration-Frequency relationship using covariate-informed covariates”, Journal of Hydrology, 604: 127178</li> <br />
-        <li><b>Vinnarasi R.</b>, Dhanya C.T., 2019. “Being Realistic in Projecting Future Extremes: Nonstationarity Informed Framework”, Scientific Reports, 9(1): 10472</li> <br />
-        <li><b>Vinnarasi R.</b>, Dhanya C.T., 2019. “Quantifying shifts and intensification in the annual rainfall extremes over India”, Environmental Research Letters, 14(6): 064016</li> <br />
-        <li>Nisha K. Koshy, <b>Vinnarasi R.</b>, Dhanya C.T., Somnath Baidya Roy, 2018. “Reliability of reanalysis-based gridded precipitation in representing sub-daily precipitation characteristics in India”, Journal of Hydrology, 561: 986–1001</li> <br />
-        <li><b>Vinnarasi R.</b>, Dufresne J.-C., Chakravorty A., Aghakouchak A., 2021. “Robustness in Warming Pattern of Daily Surface Temperature in Different Climate Zones”, Scientific Reports, 7(1):7530</li> <br />
-        <li>Ghodichore N., Dhanya C.T., <b>Vinnarasi R.</b>, 2017. “Examination of Mean Precipitation and Moisture Transport in Reanalysis Products over India”, ISSM Journal of Hydrologic Engineering, 8(1):1-1</li> <br />
-        <li>Chaudhari S., Dhanya C. T., <b>Vinnarasi R.</b>, 2017. “Dry and Wet Extreme Spell Variability During Monsoon - A Gauge-Based Gridded Daily Precipitation Dataset over India”, Journal of Hydrologic Engineering, 22(9)</li> <br />
-        <li><b>Vinnarasi R.</b>, Dhanya C. T., 2016. “Changing characteristics of extreme wet and dry spell of Indian rainfall”, Journal of Geophysical Research Atmospheres, 121(5): 2146-2160</li> <br />
-      </ol> */}
-      {/* <ol reversed className='text-1 list-1' style={{ listStyle: 'number', fontSize: '1rem' }}>
-    <li>Integrating regionalisation, uncertainty, and nonstationarity in modelling extreme rainfall events in India. <em>Journal of Environmental Management</em>, 376, 124377, 2025.</li>
-    <li>Modelling climate change-induced nonstationarity in rainfall extremes: A comprehensive approach for hydrological analysis. <em>Technological Forecasting and Social Change</em>, 208, 123693, 2024.</li>
-    <li>Tracing Time-Varying Characteristics of Meteorological Drought through Nonstationary Joint Deficit Index. <em>Journal of Climate</em>, 36 (12), 4203–4217, 2023.</li>
-    <li>Time-varying Intensity-Duration-Frequency relationship through climate-informed covariates. <em>Journal of Hydrology</em>, 604, 127178, 2021.</li>
-    <li>Quantifying the shifts and intensification in the annual cycles of diurnal temperature extremes for human comfort and crop production. <em>Environmental Research Letters</em>, 14 (5), 054016, 2019.</li>
-    <li>Examination of mean precipitation and moisture transport in reanalysis products over India. <em>ISH Journal of Hydraulic Engineering</em>, 25 (1), 51–61, 2019.</li>
-    <li>Bringing realism into a dynamic copula-based non-stationary intensity-duration model. <em>Advances in Water Resources</em>, 130, 325–338, 2019.</li>
-    <li>Reliability of reanalyses products in simulating precipitation and temperature characteristics over India. <em>Journal of Earth System Science</em>, 127 (8), 115, 2018.</li>
-    <li>Dry and wet spell variability during monsoon in gauge-based gridded daily precipitation datasets over India. <em>Journal of Hydrology</em>, 546, 204–218, 2017.</li>
-    <li>Unravelling diurnal asymmetry of surface temperature in different climate zones. <em>Scientific Reports</em>, 7 (1), 7350, 2017.</li>
-    <li>Changing characteristics of extreme wet and dry spells of Indian monsoon rainfall. <em>Journal of Geophysical Research: Atmospheres</em>, 121 (5), 2146–2160, 2016.</li>
-    <li>Changes in the characteristics of extreme rainfall in Indian monsoon. <em>Journal of Agroecology and Natural Resource Management</em>, 2 (3), 215–219, 2015.</li>
-    <li>Intensity-Duration-Frequency Relationship using Event Based Approach. <em>Journal of Agroecology and Natural Resource Management</em>, 2, 178–180, 2015.</li>
-    <li>Impact of climate change in a southern tributary of Brahmaputra basin. <em>Study Report</em>, IIT Guwahati, 2011.</li>
-  </ol> */}
+      
       <div style={{ textAlign: 'start' }}>
+        <div class="pub">
+          <div class="title">Non-Stationary Multi-Covariate Flood Frequency Analysis with TRUE: A Tool for Time-varying Return levels of Univariate Extremes. </div>
+          <div class="authors">Mohseni, U., Gailakoti, M., & Vinnarasi, R. </div>
+          <div class="venue">Environmental Modelling & Software, 106992.</div>
+          <div class="meta">2026</div>
+        </div>
+        <div class="pub">
+          <div class="title"> Spatiotemporal reorganization of drought characteristics across India under changing monsoon variability. </div>
+          <div class="authors">Bhattacharjee, D., Rajendran, V., & Dhanya, C. T.</div>
+          <div class="venue">Natural Hazards, 122(7), 308.</div>
+          <div class="meta">2026</div>
+        </div>
+        <div class="pub">
+          <div class="title">Joint calibration of multi-scale hydrological data sets using probabilistic water balance data fusion: methodology and application to the irrigated Hindon River Basin, India, Hydrol.</div>
+          <div class="authors">Mourad, R., Schoups, G., Rajendran, V., and Bastiaanssen, W</div>
+          <div class="venue">Earth Syst. Sci., 30, 525–551, </div>
+          <div class="meta">2026 <a href="https://doi.org/10.5194/hess-30-525-2026">https://doi.org/10.5194/hess-30-525-2026</a></div>
+        </div>
+        <div class="pub">
+          <div class="title">Impact of urbanization and global warming on sea-breeze, heat stress and cooling demand over greater Houston area.</div>
+          <div class="authors">Tewari, M., Salamanca, F., Dubey, A.K., Ray, P., Treinish, L.A., Gonzalez-Cruz, J.E. and Rajendran, V.</div>
+          <div class="venue">Atmospheric Research, 336, p.108889</div>
+          <div class="meta">2026</div>
+        </div>
         <div class="pub">
           <div class="title">Integrating regionalisation, uncertainty, and nonstationarity in modelling extreme rainfall events in India</div>
           <div class="authors">NK Goel, V Rajendran</div>

@@ -8,7 +8,9 @@ export default function ResearchProjects() {
       <ul className="text-1 list-1" style={{ listStyle: 'number', fontSize: '1rem' }}>
         <li><b style={{ fontSize: '1.4rem' }}>Hindon Roots Sensing (HIROS): </b>
           <br />
-          River Rejuvenation through Scalable Water and Solute Balance Modelling and Informed Farmers Actions (2023); Sponsored by DST, New Delhi under National Mission on Himalayan Ganga and Water Call. Budget: ₹576.5 Lakhs (Includes own part contribution of ₹125.5 Lakhs)</li> <br />
+          River Rejuvenation through Scalable Water and Solute Balance Modelling and Informed Farmers Actions (2023);<br />
+           Sponsored by DST, New Delhi under National Mission on Himalayan Ganga and Water Call. <br />
+            Budget: ₹576.5 Lakhs (Includes own part contribution of ₹125.5 Lakhs)</li> <br />
         {/* <iframe src="https://www.hiros.in/" frameborder="0"></iframe> */}
         <p>For more details visit  <a target='_blank' href="https://www.hiros.in/">https://www.hiros.in/</a></p>
         <p className="section-title" style={{ fontSize: '20px' }}>Project Mission and Vision</p>
@@ -30,6 +32,21 @@ export default function ResearchProjects() {
             <img style={{ maxWidth: '100%' }} src={require('../assets/hiros-project.png')} alt="" />
           </div>
         </div>
+        <p className="section-title" style={{ fontSize: '20px' }}>Sponsers</p>
+        <br />
+        <div style={{ display: 'flex', height: '160px', justifyContent: 'space-evenly' }}>
+          <div>
+            <img style={{ maxWidth: '100%', maxHeight: '100%', marginInline: 'auto' }} src={require('../assets/logo/dst-logo.webp')} alt="" />
+          </div>
+          <div>
+            <img style={{ maxWidth: '100%', maxHeight: '100%', marginInline: 'auto' }} src={require('../assets/logo/nwo-1-logo.png')} alt="" />
+          </div>
+        </div>
+        <li><b style={{ fontSize: '1.4rem' }}>Design flood estimation for resilient hydraulic structures under changing climate and environments (2022): </b>
+          <br />
+          Funded by SERB India under Startup Research Grant Scheme. Budget: ₹19.6 Lakhs</li> <br />
+          <p>For more details visit webtool :           <a target='_blank' href="https://piyush-chavan.github.io/Intern_Project_Map_Basin/">Design Flood Estimation Webtool <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</p>
         <p className="section-title" style={{ fontSize: '20px' }}>Project Summary</p>
         <p>The intensification of extreme weather and climatic events, evident in the recent past, has resulted in severe damage/failure of the water resource infrastructure. These infrastructures are not expected to be resilient to the changing climate, as they were planned and designed based on the conventional stationarity assumption. Hence, several studies have recommended the idea of capturing the temporal dynamics (i.e., non-stationarity) in extremes. Nonstationary modelling developed merely by addressing the changes in extremes over time, without understanding the physical interpretation, results in an unreliable future prediction. Without incorporating the physical factors, Nonstationary modelling may produce more uncertainty than stationary modelling. This study investigates the physical relevance behind the changes in flood characteristics and develops a robust approach to estimate the design flood through the multivariate Flood Frequency Analysis (FFA) for a changing climate and environment. The signature of both long-term and short-term non-stationarity is detected in the flood peak, flood volume and flood duration. Further, the physical factors (i.e., process-informed covariates) that influence these changes will be identified, and a suitable covariate-based model will be developed to perform nonstationary FFA. The design flood and joint return period for major riverine flood basins in India will be estimated, providing information for the design and operation of hydraulic structures incorporating flood risk. It will also pave the way for further research in River flood management, dynamic reservoir management and flood forecasting under a changing climate and environment.</p>
         <p className="section-title" style={{ fontSize: '20px' }}>Objectives</p>
@@ -49,38 +66,15 @@ export default function ResearchProjects() {
             </li>
           </ol>
         </p>
-        <p className="section-title" style={{ fontSize: '20px' }}>Keywords</p>
-        <p>Design flood, nonstationarity model, joint return period, frequency analysis, climate change</p>
-        <p className="section-title" style={{ fontSize: '20px' }}>Sponsers</p>
-        <br />
-        <div style={{ display: 'flex' ,height:'160px',justifyContent:'space-evenly'}}>
-          <div>
-            <img style={{maxWidth:'100%',maxHeight:'100%',marginInline:'auto'}} src={require('../assets/logo/dst-logo.webp')} alt="" />
-          </div>
-          <div>
-            <img style={{maxWidth:'100%',maxHeight:'100%',marginInline:'auto'}} src={require('../assets/logo/nwo-1-logo.png')} alt="" />
-          </div>
-        </div>
+        
+        
+        
         <br /><br />
-        <ul>
-          <li>
-            Hydrological Modelling for Dynamic Catchments (2021): Funded by Sponsored Research & Industrial Consultancy Office, Indian Institute of Technology Roorkee. Budget: ₹21.6 Lakhs
-          </li>
-          <li>
-            Design flood estimation for resilient hydraulic structures under changing climate and environments (2022): Funded by SERB India under Startup Research Grant Scheme. Budget: ₹19.6 Lakhs
-          </li>
-        </ul>
         <li><b style={{ fontSize: '1.4rem' }}>Hydrological Modelling for Dynamic Catchments (2021):</b>
           <br />
           Funded by Sponsored Research & Industrial Consultancy Office, Indian Institute of Technology Roorkee. Budget: ₹21.6 Lakhs</li> <br />
-        <li><b style={{ fontSize: '1.4rem' }}>Design flood estimation for resilient hydraulic structures under changing climate and environments (2022): </b>
-          <br />
-          Funded by SERB India under Startup Research Grant Scheme. Budget: ₹19.6 Lakhs</li> <br />
+       
       </ul>
-      {/* <p className="section-title">Invited Talks / Guest Lectures</p>
-      <ul className="text-1 list-1" style={{listStyle:'circle',fontSize:'1rem'}}>
-        <li>Delivered at Institutions such as IIST, IISER, NIT and private universities</li>
-      </ul> */}
     </div>
   )
 }

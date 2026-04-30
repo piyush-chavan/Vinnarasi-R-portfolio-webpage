@@ -7,8 +7,6 @@ export default function Navbar() {
     <nav className='navbar'>
       <div>
         <div className="nav-title">
-          {/* <img width='40px' style={{borderRadius:'50%',padding:'2px'}} src={require('../assets/werg-logo.png')} alt="" /> */}
-          {/* <i class="fa-solid fa-cloud-showers-water"></i> */}
           Water Extremes Research Group
         </div>
       </div>
@@ -17,14 +15,12 @@ export default function Navbar() {
         <div><Link className="nav-links" to="/research">Research</Link></div>
         <div><Link className="nav-links" to="/team">Team</Link></div>
         <div><Link className="nav-links" to="/publication">Publications</Link></div>
-        {/* <div><Link className="nav-links" to="/research-projects">Research Projects</Link></div> */}
-        {/* <div><Link className="nav-links" to="/tools">Tools</Link></div> */}
         <div className='dropdown'>
           <Link className="nav-links dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tools</Link>
           <ul class="dropdown-menu">
             <li><Link class="dropdown-item" to="/tools">Go to tools...</Link></li>
             <li><a class="dropdown-item" target='_blank' href="https://piyush-chavan.github.io/Intern_Project_Map_Basin/">Design Flood Estimation <br /> Webtool</a></li>
-            <li><a class="dropdown-item" href="#">Another tool</a></li>
+            <li><a class="dropdown-item" target='_blank' href="https://github.com/UsmanMohseni/TRUE-Time-varying_Returnlevels_of_Univariate_Extremes">TRUE</a></li>
           </ul>
         </div>
 
@@ -35,14 +31,3 @@ export default function Navbar() {
   )
 }
 
-{/* <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown
-  </a>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</li> */}

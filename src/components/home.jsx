@@ -176,20 +176,31 @@ export default function Home() {
                 </div>
                 <div ref={scrollRef} className="lab-updates">
                     <p style={{ textAlign: 'center', position: 'sticky', top: 0, backgroundColor: '#ffffffff' }} className="section-title">Lab Updates</p>
-                    {/* <p className="title_4">2025</p>
-                    <p className="title_4">2024</p>
-                    <p className="title_4">2023</p>
-                    <p className="text-1">Mr.  Muskula Sai Bargav Reddy joins the research group as a PhD student - Jan 2023</p>
-                    <p className="title_4">2022</p>
-                    <p className="text-1">Mr. Vivek Tiwari joins the research group as a PhD student (Co-guide) - July 2022</p>
-                    <p className="text-1">Mr. Usman Mohseni joins the research group as a PhD student - July 2022</p>
-                    <p className="text-1">Ms. Pallavi Kumari joins the research group as a PhD student - July 2022</p>
-                    <p className="title_4">2021</p>
-                    <p className="text-1">Mr. Dikshant Bodana joins the research group as a PhD student - July 2021</p>
-                    <p className="title_4">2020</p>
-                    <p className="text-1">Mr. Ankush joins the research group as a PhD student (Co-guide) - July 2020</p>
-                    <p className="text-1">Dr. R. Vinnarasi joined IIT Roorkee as Assistant Professor - 15th June 2020.</p> */}
 
+                    <div className="year">2026</div>
+                    <ul class="updates">
+                        <li class="update-item">
+                            Mr. Usman Mohseni will be presenting his work titled “A Bayesian Copula-Based Integrated Drought Index for Compound Drought Monitoring in India” at the EGU General Assembly 2026.
+                        </li>
+                        <li class="update-item">
+                            Ms. Aakanksha Agrawal will be presenting her work titled "WRF Hindcast Sensitivity for Delhi's 28 June 2024 Extreme Rainfall: Role of Boundary Conditions, Microphysics, and Initial Time" at the EGU General Assembly 2026.
+                        </li>
+                        <li class="update-item">
+                            Mr. Muskula Sai Bargav Reddy will be presenting his work titled “Are Existing Water Quality Indices (WQIs) Fit for Purpose? Evaluating Their Applicability to Irrigation Surface Water Quality” at the EGU General Assembly 2026.
+                        </li>
+                        <li class="update-item">
+                            Mr. Nikhil Ghodichore will be presenting his work titled “Multivariate driver analysis and moisture attribution of the December 2023 Tuticorin floods” at the EGU General Assembly 2026.
+                        </li>
+                        <li class="update-item">
+                            Ms. P. Kumari will be presenting her work titled “Hydroclimatic Stress in India: Methodological Innovation and Agricultural Relevance of Stand-Alone Flash Droughts” at the EGU General Assembly 2026.
+                        </li>
+                        <li class="update-item">
+                            Mr. Vivek Tiwari will be presenting his work titled “Can Agricultural Nitrate Leaching to Groundwater Be Reduced Without Compromising Crop Yields?” at the EGU General Assembly 2026.
+                        </li>
+                        <li class="update-item">
+                            Ms. Aayusha Kumari Mishra will be presenting her work titled “Assessment of Partial Blockage in Urban Drains for Flood Risk Reduction” at the EGU General Assembly 2026.
+                        </li>
+                    </ul>
                     <div class="year">2025</div>
                     <ul class="updates">
                         <li class="update-item">Mr. Dikshant Bodana presented his work titled “The Hidden Cost of Agriculture: Groundwater Overdraft and Nutrient Pollution in the Hindon Basin” at the 22nd Annual Meeting of the Asia Oceania Geosciences Society (AOGS 2025).</li>
@@ -259,72 +270,7 @@ export default function Home() {
                 <img style={{ borderRadius: '20px' }} width='100%' src={require('../assets/homepage_img.png')} alt="" />
             </div>
             <br /><br />
-            {/* <div className="home-image-container" style={{ backgroundColor: 'grey' }}>
-                <div id="carouselExampleCaptions" class="carousel slide" style={{ height: '100%' }}>
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
-
-                    </div>
-                    <div class="carousel-inner" style={{ height: '100%' }}>
-                        <div class="carousel-item active" style={{ height: '100%' }}>
-                            <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-1.jpg')} class="d-block" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item" style={{ height: '100%' }}>
-                            <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-2.jpg')} class="d-block" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item" style={{ height: '100%' }}>
-                            <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-3.jpg')} class="d-block" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item" style={{ height: '100%' }}>
-                            <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-4.jpg')} class="d-block" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item" style={{ height: '100%' }}>
-                            <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-5.jpg')} class="d-block" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item" style={{ height: '100%' }}>
-                            <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-6.jpg')} class="d-block" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item" style={{ height: '100%' }}>
-                            <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-7.jpg')} class="d-block" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                        <div class="carousel-item" style={{ height: '100%' }}>
-                            <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-8.jpg')} class="d-block" alt="..." />
-                            <div class="carousel-caption d-none d-md-block">
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-            </div> */}
+            
         </div>
     )
 }
